@@ -8,7 +8,7 @@ tarball="ubuntu.tar.xz"
 if [ "$first" != 1 ];then
 	if [ ! -f $tarball ]; then
 		echo "download"
-		wget "https://github.com/EXALAB/Anlinux-Resources/master/Rootfs/Ubuntu/arm64/ubuntu-rootfs-arm64.tar.xz" -O $tarball
+		wget "https://github.com/EXALAB/Anlinux-Resources/raw/refs/heads/master/Rootfs/Ubuntu/arm64/ubuntu-rootfs-arm64.tar.xz" -O $tarball
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
