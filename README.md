@@ -1,3 +1,7 @@
+*source the script & tarball* [Here](https://github.com/EXALAB)
+
+*is just clear manual instruction*
+
 **Get Termux**
 [Here](https://github.com/termux/termux-app)
 
@@ -39,11 +43,6 @@ pkg install termux-api nano
 ```
 wget https://raw.githubusercontent.com/shiru-ri/linuxcore/master/ubuntuos.sh && bash ubuntuos.sh
 ```
-
-*the script & image from* [Here](https://github.com/EXALAB)
-
-
-*just make clear manual instruction*
 
 **Login**
 >
