@@ -68,6 +68,10 @@ apt install apt-utils nano wget curl sudo
 ```
 sudo apt install xfce4 xfce4-goodies sddm
 ```
+>
+```
+sudo apt install xubuntu-core
+```
 
 > follow command
 > 
