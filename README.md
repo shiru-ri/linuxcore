@@ -61,11 +61,7 @@ apt upgrade
 ```
 >
 ```
-apt install apt-utils nano wget
-```
->
-```
-apt install curl sudo
+apt install apt-utils nano wget curl sudo
 ```
 
 **Install Desktop Environment**
@@ -85,6 +81,12 @@ sudo apt install xfce4 xfce4-goodies slim
 >example 51. indonesia
 > 
 > enter 51
+>
+> start slim window manager
+>
+```
+sudo service slim start
+```
 
 **Setup VNC**
  >
