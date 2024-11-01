@@ -68,10 +68,10 @@ apt install apt-utils nano wget
 apt install curl sudo
 ```
 
-**Install Mate Desktop Environment**
+**Install Desktop Environment**
 >
 ```
-apt install task-mate-desktop
+sudo apt install xfce4 xfce4-goodies slim
 ```
 
 > follow command
@@ -105,7 +105,7 @@ nano /.vnc/xstartup
 ```
 #!/bin/bash
 xrdb $HOME/.Xresources
-mate-session
+startxfce4
 ```
 > press termux ctrl + x
 > 
@@ -217,6 +217,5 @@ exit
 **Remove**
 >
 ```
-wget
-https://raw.githubusercontent.com/shiru-ri/linuxcore/master/removeubuntu.sh && bash removeubuntu.sh
+wget https://raw.githubusercontent.com/shiru-ri/linuxcore/master/removeubuntu.sh && bash removeubuntu.sh
 ```
