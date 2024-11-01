@@ -66,7 +66,7 @@ apt install apt-utils nano wget curl sudo
 **Install Desktop Environment**
 >
 ```
-sudo apt lxqt slim
+sudo apt install xfce4 xfce4-goodies sddm
 ```
 
 > follow command
@@ -84,7 +84,7 @@ sudo apt lxqt slim
 > start slim window manager
 >
 ```
-sudo service slim start
+sudo service sddm start
 ```
 
 **Setup VNC**
@@ -106,7 +106,7 @@ nano /.vnc/xstartup
 ```
 #!/bin/bash
 xrdb $HOME/.Xresources
-startlxqt
+startxfce4
 ```
 > press termux ctrl + x
 > 
@@ -142,7 +142,7 @@ nano /usr/local/bin/runvnc
 ```
 export USER=root
 export HOME=/root
-tigervncserver -localhost yes :1 -geometry 1024x768 -depth 24
+tigervncserver -xstartup /usr/bin/x-session-manager -localhost yes :1 -geometry 1024x768 -depth 24
 ```
 > ctrl + x
 > 
