@@ -67,7 +67,7 @@ apt install apt-utils nano wget curl sudo
 **Install Desktop Environment**
 >
 ```
-sudo apt install xfce4 xfce4-goodies slim
+sudo apt lxqt slim
 ```
 
 > follow command
@@ -107,7 +107,7 @@ nano /.vnc/xstartup
 ```
 #!/bin/bash
 xrdb $HOME/.Xresources
-startxfce4
+startlxqt
 ```
 > press termux ctrl + x
 > 
