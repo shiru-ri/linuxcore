@@ -81,6 +81,11 @@ sudo apt install lxqt sddm
 > 
 > enter 51
 >
+> enable sddm
+>
+```
+sudo systemctl enable sddm
+```
 > start sddm
 >
 ```
