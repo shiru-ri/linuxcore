@@ -66,11 +66,7 @@ apt install apt-utils nano wget curl sudo
 **Install Desktop Environment**
 >
 ```
-sudo apt install xfce4 xfce4-goodies sddm
-```
->
-```
-sudo apt install xubuntu-core
+sudo apt install lxqt sddm
 ```
 
 > follow command
@@ -85,7 +81,7 @@ sudo apt install xubuntu-core
 > 
 > enter 51
 >
-> start slim window manager
+> start sddm
 >
 ```
 sudo service sddm start
@@ -110,7 +106,7 @@ nano /.vnc/xstartup
 ```
 #!/bin/bash
 xrdb $HOME/.Xresources
-startxfce4
+startlxqt
 ```
 > press termux ctrl + x
 > 
@@ -146,7 +142,7 @@ nano /usr/local/bin/runvnc
 ```
 export USER=root
 export HOME=/root
-tigervncserver -xstartup /usr/bin/x-session-manager -localhost yes :1 -geometry 1024x768 -depth 24
+tigervncserver -xstartup /usr/bin/starlxqt -localhost yes :1 -geometry 1024x768 -depth 24
 ```
 > ctrl + x
 > 
@@ -215,7 +211,7 @@ stopvnc
 ```
 exit
 ```
-> typing exit to exit termux
+> exit termux
 >
 > release termux lock
 
